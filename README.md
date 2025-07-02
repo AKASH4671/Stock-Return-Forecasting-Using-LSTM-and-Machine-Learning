@@ -1,4 +1,4 @@
-# 📈 Stock Return Prediction Using LSTM & Machine Learning
+# 📈 Stock Return Forecasting Using LSTM & Machine Learning
 
 This project explores how machine learning — especially **Long Short-Term Memory (LSTM)** networks — can be applied to forecast short-term stock returns using historical lag features. It also compares traditional models like **Random Forest** and **XGBoost**, offering practical insights into their strengths and limitations.
 
@@ -87,9 +87,9 @@ This simulates what many **quantitative models** in trading and portfolio constr
 | XGBoost      | 0.03291  | 0.00208  | -0.1084   |
 | LSTM         | 0.03226  | 0.04449  | -0.0545   |
 
-> 📌 **Insight**: Tree-based models performed better on this dataset.  
-> LSTM, despite its ability to capture sequential patterns, struggled likely due to lack of more complex features (volume, indicators, etc.).  
-> This reflects a real-world modeling trade-off: **deeper models require richer features.**
+> 📌 **Insight**:  
+> While LSTM is built for sequences, simpler tree-based models like Random Forest outperformed it here — possibly due to the limited input features (no volume, no technical indicators).
+This shows the importance of feature richness in deep learning for finance.
 
 ---
 
