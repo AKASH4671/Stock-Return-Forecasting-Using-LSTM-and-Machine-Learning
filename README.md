@@ -1,10 +1,10 @@
-# 📈 Stock Return Forecasting Using LSTM & Machine Learning
+#  Stock Return Forecasting Using LSTM & Machine Learning
 
 This project explores how machine learning — especially **Long Short-Term Memory (LSTM)** networks — can be applied to forecast short-term stock returns using historical lag features. It also compares traditional models like **Random Forest** and **XGBoost**, offering practical insights into their strengths and limitations.
 
-> 📊 Blends concepts from AI, time-series forecasting, and financial return behavior  
-> 🧠 Built to deepen practical understanding of sequential modeling in finance  
-> 💼 Reflects the intersection of data science and modern quantitative analysis
+>  Blends concepts from AI, time-series forecasting, and financial return behavior  
+>  Built to deepen practical understanding of sequential modeling in finance  
+>  Reflects the intersection of data science and modern quantitative analysis
 
 ---
 
@@ -15,7 +15,7 @@ This simulates what many **quantitative models** in trading and portfolio constr
 
 ---
 
-## 🎯 Goals
+##  Goals
 
 - Predict next-day returns based on past patterns
 - Compare performance of **tree-based models** vs. **deep learning**
@@ -24,7 +24,7 @@ This simulates what many **quantitative models** in trading and portfolio constr
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 | Folder        | Contents                                     |
 |---------------|----------------------------------------------|
@@ -35,7 +35,7 @@ This simulates what many **quantitative models** in trading and portfolio constr
 
 ---
 
-## 📦 Models Used
+##  Models Used
 
 | Model          | Highlights                                     |
 |----------------|-----------------------------------------------|
@@ -79,7 +79,7 @@ This simulates what many **quantitative models** in trading and portfolio constr
 
 ---
 
-## 📈 Performance Summary (on Tesla Returns)
+##  Performance Summary (on Tesla Returns)
 
 | Model        | MAE      | RMSE     | R² Score  |
 |--------------|----------|----------|-----------|
@@ -87,13 +87,13 @@ This simulates what many **quantitative models** in trading and portfolio constr
 | XGBoost      | 0.03291  | 0.00208  | -0.1084   |
 | LSTM         | 0.03226  | 0.04449  | -0.0545   |
 
-> 📌 **Insight**:  
+>  **Insight**:  
 > While LSTM is built for sequences, simpler tree-based models like Random Forest outperformed it here — possibly due to the limited input features (no volume, no technical indicators).
 This shows the importance of feature richness in deep learning for finance.
 
 ---
 
-## 🔧 Why This Project is Finance-Relevant
+##  Why This Project is Finance-Relevant
 
 - **Return Prediction** is central to:
   - Algorithmic Trading
@@ -111,7 +111,7 @@ This shows the importance of feature richness in deep learning for finance.
 
 ---
 
-## 🛠 How to Reproduce
+##  How to Reproduce
 
 1. Clone this repo
 2. Use provided Tesla dataset or plug in your own return data
@@ -123,7 +123,7 @@ This shows the importance of feature richness in deep learning for finance.
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 All model decisions, diagrams, and preprocessing logic are fully explained in the `docs/` folder:
 
