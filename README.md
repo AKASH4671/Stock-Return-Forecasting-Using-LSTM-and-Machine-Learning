@@ -8,7 +8,7 @@ This project explores how machine learning — especially **Long Short-Term Memo
 
 ---
 
-## 📊 Problem Statement
+##  Problem Statement
 
 Can we forecast short-term **stock return movements** using only past return data (lagged features)?  
 This simulates what many **quantitative models** in trading and portfolio construction attempt.
